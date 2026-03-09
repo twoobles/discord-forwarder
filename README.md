@@ -1,5 +1,7 @@
 # discord-forwarder
 
+[![CI](https://github.com/twoobles/discord-forwarder/actions/workflows/ci.yml/badge.svg)](https://github.com/twoobles/discord-forwarder/actions/workflows/ci.yml)
+
 A Discord bot that bridges messages to WeChat Work (企业微信) group chats, with optional DeepL translation.
 
 ## Features
