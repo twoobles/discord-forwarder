@@ -19,6 +19,6 @@ class WeChatWorkAdapter(PlatformAdapter):
     async def send_image(self, data: bytes, filename: str) -> None:
         b64 = b64encode(data).decode("utf-8")
         md5_check = md5(data).hexdigest()
-        payload = {"msgtype": "image", "image": {"base64": b64, "md5": md5_check}}
+        payload = {"msgtype": "image", "image": { "base64": b64, "md5": md5_check}}
         async with self._session.post(self._url, json=payload) as res:
             res.raise_for_status()
