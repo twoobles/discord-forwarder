@@ -10,8 +10,8 @@
 ## Standard Feature Flow
 
 ```bash
-# 1. Start from master
-git checkout master && git pull
+# 1. Start from main
+git checkout main && git pull
 git checkout -b your-feature-name
 
 # 2. Verify baseline — all tests must pass before touching anything
@@ -22,7 +22,7 @@ pytest
 # 4. After every meaningful change
 pytest && ruff check . && ruff format --check .
 
-# 5. Open a PR into master — no merge without green tests and lint
+# 5. Open a PR into main — no merge without green tests and lint
 ```
 
 ## Commit Practices
