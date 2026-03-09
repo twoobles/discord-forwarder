@@ -5,5 +5,7 @@ dist/
 .pytest_cache/
 .ruff_cache/
 .claude/
+CLAUDE.md
+WORKFLOW.md
 .vscode/
 data/
